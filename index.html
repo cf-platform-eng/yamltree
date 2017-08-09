@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <!-- esprima required only for !!js/function -->
+        <script src="node_modules/esprima/dist/esprima.js"></script>
+        <script src="node_modules/js-yaml/dist/js-yaml.min.js"></script>
+        <script src="yamltree.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="header">
+            <input id="file" type='file' accept='application/x-yaml' onchange='loadYaml(event)'>
+            <div id="path"></div>
+        </div>
+        <div id="output"></div>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "yamltree",
+  "dependencies": {
+    "js-yaml": ""
+  }
+}
