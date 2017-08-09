@@ -8,8 +8,8 @@ var render = function(doc, path) {
   if (Array.isArray(doc)) {
     ret += '<ul data-path="' + path.join(sep) + '">';
     for (var i=0; i<doc.length; ++i) {
-      if (doc.length > 0 && typeof doc[0] === 'object' && 'name' in doc[0]) {
-        path.push('[' + i + '](name:' + doc[0]['name'] + ')');
+      if (typeof doc[i] === 'object' && 'name' in doc[i]) {
+        path.push('[' + i + '](name:' + doc[i]['name'] + ')');
       } else {
         path.push('[' + i + ']');
       }
