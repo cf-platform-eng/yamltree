@@ -1,3 +1,5 @@
+# yamltree is no longer actively maintained by VMware.
+
 # yamltree
 Browser-based YAML viewer.
 
